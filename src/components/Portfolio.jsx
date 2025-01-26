@@ -62,11 +62,11 @@ const Portfolio = () => {
           frameBorder="0"
           className="w-[90%] md:w-full h-[300px] rounded-xl border-[5px] border-[#1e3a8a] mb-[30px] mx-auto"
         ></iframe>
-        <iframe
+        {/* <iframe
           src="https://damenpay.netlify.app/"
           frameBorder="0"
           className="w-[90%] md:w-full h-[300px] rounded-xl border-[5px] border-[#1e3a8a]  mb-[30px]  mx-auto"
-        ></iframe>
+        ></iframe> */}
       </div>
     </section>
   );
