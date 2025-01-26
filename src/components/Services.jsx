@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Service from "./service";
+import Service from "./Service";
 import ReactIcon from "../icons/ReactIcon";
 import ResponsiveIcon from "../icons/ResponsiveIcon";
 import ApiLogo from "../icons/ApiIcon";
