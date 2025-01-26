@@ -16,7 +16,7 @@ const Skills = () => {
     var textWrapper = document.querySelector(".ml12 .letters");
     textWrapper.innerHTML = textWrapper.textContent.replace(
       /\S/g,
-      "<span class='letter'>$&</span>",
+      "<span className='letter'>$&</span>",
     );
 
     anime
@@ -39,8 +39,8 @@ const Skills = () => {
     <section id="skills" className="skills bg-[#1e3a8a] py-[40px]">
       <div className="container mx-auto">
         <h2 className="ml12 text-center text-white text-[32px]  font-bold mb-[40px]">
-          <span class="text-wrapper">
-            <span class="letters">What I Do</span>
+          <span className="text-wrapper">
+            <span className="letters">What I Do</span>
           </span>
         </h2>
         <div className="skills-container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] mx-auto">

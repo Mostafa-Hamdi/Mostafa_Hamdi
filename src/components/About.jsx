@@ -7,7 +7,7 @@ const About = () => {
     var textWrapper = document.querySelector(".ml13 .letters");
     textWrapper.innerHTML = textWrapper.textContent.replace(
       /\S/g,
-      "<span class='letter'>$&</span>",
+      "<span className='letter'>$&</span>",
     );
 
     anime
@@ -29,8 +29,8 @@ const About = () => {
   return (
     <section id="about" className="pt-[40px]">
       <h2 className="ml13 text-center text-[#1e3a8a] text-[32px]  font-bold">
-        <span class="text-wrapper">
-          <span class="letters">About</span>
+        <span className="text-wrapper">
+          <span className="letters">About</span>
         </span>
       </h2>
       <div className="container md:flex mx-auto gap-[30px] items-center justify-around ">
@@ -49,7 +49,7 @@ const About = () => {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 448 512"
               height="1em"
               width="1em"

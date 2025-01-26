@@ -12,7 +12,7 @@ const Services = () => {
     var textWrapper = document.querySelector(".ml10 .letters");
     textWrapper.innerHTML = textWrapper.textContent.replace(
       /\S/g,
-      "<span class='letter'>$&</span>",
+      "<span className='letter'>$&</span>",
     );
 
     anime
@@ -35,8 +35,8 @@ const Services = () => {
     <div id="services" className="services bg-[#1e3a8a] py-[40px] ">
       <div className="container mx-auto">
         <h2 className="ml10 text-center text-white text-[32px]  font-bold mb-[40px]">
-          <span class="text-wrapper">
-            <span class="letters">Services I Provide</span>
+          <span className="text-wrapper">
+            <span className="letters">Services I Provide</span>
           </span>
         </h2>
         <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-[30px_0px] lg:gap-[30px_0px]">

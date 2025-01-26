@@ -8,7 +8,6 @@ const SeoIcon = () => (
     width="64px"
     height="64px"
     enableBackground="new 0 0 64 64"
-    v
     className="absolute top-[-35px] left-[50%] translate-x-[-50%] w-[70px] h-[70px] bg-white rounded-full py-2.5 border-[8px] border-[#1e3a8a]"
   >
     <g id="analysis">

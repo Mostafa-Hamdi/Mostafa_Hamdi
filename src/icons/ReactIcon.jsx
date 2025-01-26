@@ -14,7 +14,7 @@ const ReactIcon = () => {
       viewBox="0 0 128 128"
       width="50px"
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsSerif="http://www.serif.com/"
+      xmlnsserif="http://www.serif.com/"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       className="absolute top-[-35px] left-[50%] translate-x-[-50%] w-[70px] h-[70px] bg-white rounded-full p-2.5 border-[8px] border-[#1e3a8a]"
     >

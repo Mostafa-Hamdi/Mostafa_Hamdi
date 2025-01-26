@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="bg-[#1e3a8a] pt-4 pb-1 px-4 md:px-[30px] flex items-center justify-between">
       <img src={logo} alt="" />
       <p className="text-white text-[18px] mb-0">Copyright &copy; 2025</p>
-      <ul class="wrapper">
-        {/* <li class="icon facebook">
-          <span class="tooltip">Facebook</span>
+      <ul className="wrapper">
+        {/* <li className="icon facebook">
+          <span className="tooltip">Facebook</span>
           <svg
             viewBox="0 0 320 512"
             height="1.2em"
@@ -22,8 +22,8 @@ const Footer = () => {
           href="https://www.linkedin.com/in/mostafa-hamdi/"
           className="cursor-pointer"
         >
-          <li class="icon linkedin">
-            <span class="tooltip">Linkedin</span>
+          <li className="icon linkedin">
+            <span className="tooltip">Linkedin</span>
             <svg
               baseProfile="tiny"
               height="2em"
